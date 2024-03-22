@@ -7,6 +7,7 @@ class Solution {
             //
             if(mp.containsKey(comp)){
                 ans[0]=i;
+                //why doesn't mp.get(nums[i]) work here
                 ans[1]=mp.get(comp);
                 return ans;
             }
